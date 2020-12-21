@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AutoLotDAL_Core2.Models.Base.EntityBase" Collapsed="true">
+    <Position X="14.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AutoLotDAL_Core2.Models.MetaData.InventoryMetaData">
+    <Position X="20.75" Y="0.75" Width="2" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AutoLotDAL_Core2.Models.CreditRisk" Collapsed="true">
+    <Position X="16" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AutoLotDAL_Core2.Models.Customer" Collapsed="true">
+    <Position X="11.5" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AutoLotDAL_Core2.Models.Inventory" Collapsed="true">
+    <Position X="13.75" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AutoLotDAL_Core2.Models.Order" Collapsed="true">
+    <Position X="18.25" Y="2" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AutoLotDAL_Core2.Repos.BaseRepo&lt;T&gt;">
+    <Position X="6" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAYAgAAAAiAAAgAAAAAAAEAAAAEAAAAAAgAAAAAgAIA=</HashCode>
+      <FileName>Repos\BaseRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AutoLotDAL_Core2.Repos.InventoryRepo">
+    <Position X="6" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAgAAA=</HashCode>
+      <FileName>Repos\InventoryRepo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="1.3" />
+  </Class>
+  <Interface Name="AutoLotDAL_Core2.Repos.IInventoryRepo">
+    <Position X="7.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Repos\IInventoryRepo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="AutoLotDAL_Core2.Repos.IRepo&lt;T&gt;">
+    <Position X="7.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAgAAAAAgAIA=</HashCode>
+      <FileName>Repos\IRepo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

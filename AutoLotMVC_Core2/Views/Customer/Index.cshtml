@@ -1,0 +1,32 @@
+﻿@using AutoLotDAL_Core2.Models
+@model IEnumerable<Customer>
+@functions
+{
+    public IList<Customer> SortCustomers(IList<Customer> customers)
+    {
+        var list = from s in customers orderby s.FirstName select s;
+        return list.ToList();
+    }
+}
+
+<h1>Index</h1>
+
+<table class="table">
+<thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        <th></th>
+    </tr>
+</thead>
+<tbody>
+    @foreach (var item in SortCustomers(Model.ToList()))
+    {
+        @Html.DisplayFor(modelItem => item, "InventoryList")
+    }
+</tbody>
+</table>

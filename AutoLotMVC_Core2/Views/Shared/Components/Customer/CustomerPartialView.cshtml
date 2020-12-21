@@ -1,0 +1,30 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@using AutoLotDAL_Core2.Models
+@model IEnumerable<Customer>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.FirstName)</th>
+            <th>@Html.DisplayNameFor(model => model.LastName)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.ToList())
+        {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item.FirstName)</td>
+            <td>@Html.DisplayFor(modelItem => item.LastName)</td>
+            <td>
+                <a asp-controller="Customer" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                <a asp-controller="Customer" asp-action="Details" asp-route-id="@item.Id">Details</a>
+                <a asp-controller="Customer" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
