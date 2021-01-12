@@ -10,9 +10,7 @@ namespace AutoLotDAL_Core2.Repos
     public class InventoryRepo : BaseRepo<Inventory>, IInventoryRepo
     {
         public InventoryRepo(AutoLotContext context) : base(context)
-        {
-
-        }
+        { }
 
         public override List<Inventory> GetAll()
         {

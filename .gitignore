@@ -229,3 +229,5 @@ AutoLotMVC_Core2/obj/Debug/netcoreapp3.0/Razor/Views/Shared/Components/Customer/
 AutoLotMVC_Core2/obj/Debug/netcoreapp3.0/Razor/Views/Shared/Components/Inventory/InventoryPartialView.cshtml.g.cs
 AutoLotMVC_Core2/obj/Debug/netcoreapp3.0/staticwebassets/AutoLotMVC_Core2.StaticWebAssets.Manifest.cache
 AutoLotMVC_Core2/obj/Debug/netcoreapp3.0/staticwebassets/AutoLotMVC_Core2.StaticWebAssets.xml
+/AutoLotAPI_Core2/bin/Debug/netcoreapp3.0
+/AutoLotAPI_Core2/obj/Debug/netcoreapp3.0

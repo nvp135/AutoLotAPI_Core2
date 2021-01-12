@@ -45,7 +45,9 @@ namespace AutoLotAPI_Core2
             services.AddDbContextPool<AutoLotContext>(
                 options => options.UseSqlServer(Configuration.GetConnectionString("AutoLot"),
                 o => o.EnableRetryOnFailure())
-                .ConfigureWarnings(warnings => warnings.Throw(RelationalEventId.QueryClientEvaluationWarning)));
+                //.ConfigureWarnings(warnings => warnings.Throw(RelationalEventId.QueryClientEvaluationWarning))
+                );
+
             services.AddScoped<IInventoryRepo, InventoryRepo>();
             services.AddScoped<ICustomersRepo, CustomersRepo>();
         }
